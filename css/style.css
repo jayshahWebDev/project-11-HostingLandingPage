@@ -548,3 +548,325 @@ body {
   font-weight: 500;
   margin: 0 0 15px 0;
 }
+
+@media screen and (min-width: 480px) {
+  .menuIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-section > .navbar > img {
+    width: 70px;
+  }
+
+  .nav-section > .navbar > button {
+    font-size: 13px;
+    padding: 4px 9px;
+    position: relative;
+    left: 60px;
+  }
+
+  .menuIcon {
+    font-size: 25px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .hostingSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hostingSection > .rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hostingSection > .rightSection > img {
+    height: 300px;
+  }
+
+  .hostingSection > .leftSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hostingSection > .leftSection > h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hostingSection > .leftSection > p {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .hostingSection > .leftSection > button {
+    position: relative;
+    top: 23px;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .qualitySection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qualitySection > .leftSection > img {
+    height: 300px;
+  }
+
+  .qualitySection > .rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .qualitySection > .rightSection > h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .qualitySection > .rightSection > p {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .qualitySection > .rightSection > button {
+    position: relative;
+    margin: 0 auto;
+    top: 23px;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .techSupportSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .techSupportSection > .leftSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .techSupportSection > .leftSection > h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .techSupportSection > .leftSection > p {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .techSupportSection > .leftSection > button {
+    position: relative;
+    margin: 0 auto;
+    top: 23px;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .techSupportSection > .rightSection > img {
+    height: 300px;
+  }
+
+  .serviceContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serviceContent > h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .serviceContent > p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pricingSection {
+    height: fit-content;
+  }
+
+  .pricingSection > h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .pricingSection > .cards {
+    position: relative;
+    top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonialSection > .headingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  .testimonialSection > .headingSection > .heading {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .testimonialSection > .headingSection > .subHeading {
+    position: relative;
+    top: 5px;
+    right: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .testimonialSection > .contentSection {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 100%;
+    place-items: center;
+  }
+
+  .testimonialSection > .contentSection > .card {
+    border: 1px solid #e5e5e5;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .testimonialSection > .contentSection > .card:nth-child(odd) {
+    margin-left: 0;
+  }
+
+  .testimonialSection > .contentSection > .card:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .cardActive {
+    box-shadow: 0 0 40px 20px #424f620d;
+  }
+
+  .testimonialSection > .contentSection > .card > .feedback {
+    font-size: 15px;
+  }
+
+  .testimonialSection > .contentSection > .card > img {
+    height: 40px;
+  }
+
+  .testimonialSection > .contentSection > .card > .name {
+    position: relative;
+    bottom: 17%;
+    font-size: 13px;
+  }
+
+  .testimonialSection > .contentSection > .card > .company {
+    position: relative;
+    bottom: 16%;
+    font-size: 10px;
+  }
+
+  .bannerSection {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bannerSection > .leftSection {
+    margin: 0;
+  }
+
+  .bannerSection > .leftSection > h1 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .bannerSection > .leftSection > p {
+    margin: 0 5%;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .bannerSection > .rightSection {
+    margin: 0;
+  }
+
+  .bannerSection > .rightSection > button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerSection > .leftSection {
+    width: fit-content;
+  }
+
+  .footerSection > .leftSection > img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footerSection > .leftSection > p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .footerSection > .midSection {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerSection > .rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
